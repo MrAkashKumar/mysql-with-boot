@@ -5,4 +5,6 @@ public class URLMapping {
     public URLMapping() {
 
     }
+
+    private static final String update = "";
 }
