@@ -1,1 +1,25 @@
+STEP::: 1
+MYSQL USERNAME and PASSWORD
+    Password ::: root
+    UserName ::: root
 
+STEP::: 2
+Creating database
+    CREATE DATABASE online;
+
+STEP::: 3
+CREATE TABLE using this QUERY:::::
+ 
+  create table data( 
+  id INT(5) NOT NULL AUTO_INCREMENT, 
+  userName VARCHAR(250) NOT NULL, 
+  email VARCHAR(50) NOT NULL, 
+  name VARCHAR(200) NOT NULL, 
+  mobile VARCHAR(20) NOT NULL,
+  PRIMARY KEY(id) 
+  );
+
+STEP::: 4
+INSERT DATA using this QUERY :::: 
+  insert into data(id, userName, email, name, mobile) values (1, "AKASH", "AKASH56566556@gmail.com", "AKASH Kumar", "918109833593");
+  insert into data(id, userName, email, name) values (2, "RAVI", "RAVI@gmail.com", "RAVI Kumar", "919534002929");
